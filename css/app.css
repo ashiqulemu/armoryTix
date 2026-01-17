@@ -12,7 +12,8 @@
 
 body {
   background-image: linear-gradient(177deg, rgb(33, 1, 1), rgba(255, 7, 7, 0)), url(../images/bg.webp);
-  background-size: 100% 78%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   background-attachment: fixed;
   background-repeat: repeat-y;
 }
