@@ -3,8 +3,8 @@
   src: url("../fonts/Coffee Spark.ttf");
 }
 @font-face {
-  font-family: "Nexa-ExtraLight";
-  src: url("../fonts/Nexa-Heavy.ttf");
+  font-family: "montserrat.woff2";
+  src: url("../fonts/montserrat.woff2");
 }
 .font-theme {
   font-family: "Coffee Spark";
@@ -23,7 +23,7 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: repeat-y;
-  font-family: "Nexa-ExtraLight";
+  font-family: "montserrat.woff2";
 }
 
 .site-header {
@@ -105,7 +105,7 @@ body {
   text-transform: uppercase;
 }
 .events .event-box .info h5 big {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .events .event-box .info h5 .decription {
   text-transform: uppercase;

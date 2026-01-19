@@ -13,8 +13,8 @@ $white: #fff;
 }
 
 @font-face {
-    font-family: 'Nexa-ExtraLight';
-    src: url('../fonts/Nexa-Heavy.ttf');
+    font-family: 'montserrat.woff2';
+    src: url('../fonts/montserrat.woff2');
 }
 
 
@@ -36,7 +36,7 @@ body {
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: repeat-y;
-    font-family: 'Nexa-ExtraLight';
+     font-family: 'montserrat.woff2';
 }
 
 .site-header {
@@ -135,7 +135,7 @@ body {
                 text-transform: uppercase;
 
                 big {
-                    font-size: 1.4rem;
+                    font-size: 1.2rem; 
                 }
 
                 .decription {
