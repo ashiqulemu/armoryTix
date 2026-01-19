@@ -1,7 +1,11 @@
 @font-face {
-  font-family: "agcoopercyr";
-  src: url("../fonts/AGCOO14.woff");
+  font-family: "Coffee Spark";
+  src: url("../fonts/Coffee Spark.ttf");
 }
+.font-theme {
+  font-family: "Coffee Spark";
+}
+
 .txt-primary {
   color: #BE4130;
 }
@@ -13,7 +17,6 @@
 body {
   background-image: linear-gradient(177deg, rgb(33, 1, 1), rgba(255, 7, 7, 0)), url(../images/bg.webp);
   background-size: 100% 100%;
-  background-attachment: fixed;
   background-attachment: fixed;
   background-repeat: repeat-y;
 }
@@ -66,7 +69,7 @@ body {
   border-radius: 10px;
   background: radial-gradient(#ff1e00 38%, #b51600);
   /* box-shadow: 1px 0px 0px 11px rgb(206 200 200); */
-  font-family: "agcoopercyr";
+  font-family: "Coffee Spark";
   letter-spacing: 4px;
 }
 .site-nav-link:hover {
@@ -177,6 +180,9 @@ body {
   letter-spacing: 1px;
 }
 
+.bottom-part {
+  background: rgba(0, 0, 0, 0.6705882353);
+}
 .bottom-part .items {
   display: flex;
   align-items: center;
@@ -193,9 +199,9 @@ body {
 }
 
 .txt-stroke {
-  font-family: "agcoopercyr";
-  color: #ff0000 !important;
-  text-shadow: 0px -2px 20px #ff0000;
+  font-family: "Coffee Spark";
+  color: #981200;
+  text-shadow: 0px -2px 55px #ff0000;
   -webkit-text-stroke: 1px #fff;
 }
 
@@ -221,6 +227,11 @@ body {
   font-weight: 500;
 }
 
+footer {
+  background: #BE4130;
+  border-top: 4px solid #ff8979;
+}
+
 .bg-cream {
   background: #F1F1F1;
 }
@@ -238,7 +249,6 @@ body {
 @media (max-width: 768px) {
   .mobile-menu .site-nav-link {
     font-size: 14px;
-    box-shadow: 1px 0px 20px 20px rgba(255, 0, 0, 0.2);
   }
   .ls {
     letter-spacing: 7px;
