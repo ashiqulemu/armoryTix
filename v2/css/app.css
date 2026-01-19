@@ -2,6 +2,10 @@
   font-family: "Coffee Spark";
   src: url("../fonts/Coffee Spark.ttf");
 }
+@font-face {
+  font-family: "Nexa-ExtraLight";
+  src: url("../fonts/Nexa-Heavy.ttf");
+}
 .font-theme {
   font-family: "Coffee Spark";
 }
@@ -19,6 +23,7 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
   background-repeat: repeat-y;
+  font-family: "Nexa-ExtraLight";
 }
 
 .site-header {
@@ -99,6 +104,9 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
+.events .event-box .info h5 big {
+  font-size: 1.4rem;
+}
 .events .event-box .info h5 .decription {
   text-transform: uppercase;
   display: block;
@@ -118,7 +126,8 @@ body {
 }
 .events .event-box:hover .info a {
   background: #fff;
-  color: #000;
+  color: #BE4130;
+  box-shadow: -1px 3px 0px 0px rgba(0, 0, 0, 0.3882352941);
 }
 
 .btn-theme {
