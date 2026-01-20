@@ -8,8 +8,8 @@ $txt: #585858;
 $white: #fff;
 
 @font-face {
-    font-family: 'Coffee Spark';
-    src: url('../fonts/Coffee Spark.ttf');
+    font-family: 'KOMIKAX';
+    src: url('../fonts/KOMIKAX_.ttf');
 }
 
 @font-face {
@@ -22,7 +22,7 @@ $white: #fff;
 }
 
 .font-theme {
-    font-family: 'Coffee Spark';
+    font-family: 'KOMIKAX';
 }
 
 .txt-primary {
@@ -101,7 +101,7 @@ body {
     border-radius: 10px;
     background: radial-gradient(#ff1e00 38%, #b51600);
     /* box-shadow: 1px 0px 0px 11px rgb(206 200 200); */
-    font-family: 'Coffee Spark';
+    font-family: 'KOMIKAX';
     letter-spacing: 4px;
 
     &:hover {
@@ -271,10 +271,10 @@ body {
 
 
 .txt-stroke {
-    font-family: 'Coffee Spark';
+    font-family: "KOMIKAX";
     color: #981200;
     text-shadow: 0px -2px 55px #ff0000;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 3px #be4130;
 }
 
 .form-control {
